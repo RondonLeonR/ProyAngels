@@ -1,0 +1,68 @@
+.bd-placeholder-img {
+    font-size: 1.6rem;
+    text-anchor: middle;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    user-select: none;
+}
+
+@media (min-width: 768px) {
+    .bd-placeholder-img-lg {
+        font-size: 3.5rem;
+    }
+}
+
+.container {
+  /**/  
+  max-width: 960px;
+}
+
+
+.site-header {
+  background-color: #ffffffbf;
+  -webkit-backdrop-filter: saturate(180%) blur(20px);
+  backdrop-filter: saturate(180%) blur(20px);
+}
+.site-header a {
+  color: #5a5a5a;
+  transition: color .15s ease-in-out;
+}
+.site-header a:hover {
+  color: rgb(247, 227, 178);
+  text-decoration: none;
+}
+
+.flex-equal > * {
+  flex: 1;
+}
+@media (min-width: 768px) {
+  .flex-md-equal > * {
+    flex: 1;
+  }
+}
+
+.casamientoClass{
+  background-image: url('../../assets/fotos/fotoCasamiento.jpg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.xvClass{
+  background-image: url('../../assets/fotos/fotoXV.jpg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.otrosClass{
+  background-image: url('../../assets/fotos/fotoOtros.jpg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.divMenu{
+  border: 2px;
+  border-radius: 5%;
+}

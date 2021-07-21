@@ -1,0 +1,95 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+</head>
+
+<body>
+
+    <header class="site-header sticky-top py-1" id="listMenu">
+        <nav class="container d-flex flex-column flex-md-row justify-content-between">
+            <a class="py-2" aria-label="Product">
+                <!--<svg xmlns="http://www.w3.org/2000/svg" width="26" height="26" fill="none" stroke="currentColor"
+                    stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="d-block mx-auto" role="img"
+                    viewBox="0 0 24 24">
+                    <title>Product</title>
+                    <circle cx="12" cy="12" r="10" />
+                    <path d="../../assets/fotos/marca.jpg" />
+                </svg>-->
+                Angels
+            </a>
+            <a class="py-2 d-none d-md-inline-block" href="#menuOpc">Vestidos</a>
+            <a class="py-2 d-none d-md-inline-block" href="">Contacto</a>
+        </nav>
+    </header>
+
+    <main>
+        <div class="image overflow-hidden position-relative p-3 p-md-5 text-center bg-light" style="height: 100vh;"
+            [ngStyle]="{'background':'url(assets/fotos/example.jpg) no-repeat 0 0','background-size':'cover'}">
+            <div class="col-md-5 p-lg-5 mx-auto my-5">
+                <h1 class="display-1 fst-italic">Angels Alta Costura</h1>
+                <p class="lead fw-normal">Poner algo aca que sea interesante xd (Cambiar el estilo de la letra)</p>
+            </div>
+        </div>
+
+        <div class="d-md-flex flex-md-equal w-100 my-md-3 ps-md-3" data-bs-spy="scroll" data-bs-target="#listMenu"
+            data-bs-offset="0" tabindex="0">
+            <div class="divMenu casamientoClass me-md-3 pt-3 px-3 pt-md-5 px-md-5 text-center text-white overflow-hidden"
+                style="height: 100vh;">
+                <div class="my-3 py-3">
+                    <h2 class="display-4">Casamientos</h2>
+                </div>
+            </div>
+            <div class="divMenu xvClass me-md-3 pt-3 px-3 pt-md-5 px-md-5 text-center text-white overflow-hidden"
+                style="height: 100vh;">
+                <div class="my-3 py-3">
+                    <h2 class="display-3">XV</h2>
+                </div>
+            </div>
+            <div class="divMenu otrosClass me-md-3 pt-3 px-3 pt-md-5 px-md-5 text-center text-white overflow-hidden"
+                style="height: 100vh;">
+                <div class="my-3 p-3">
+                    <h2 class="display-5">Otros</h2>
+                </div>
+            </div>
+        </div>
+
+    </main>
+
+    <footer class="container py-2">
+        <!--<div class="row">
+            <div class="col-12 col-md">
+                <small class="d-block mb-3 text-muted">&copy; 2021</small>
+            </div>
+            <div class="col-12 col-md">
+                <h5>Contacto</h5>
+                <ul class="list-unstyled text-small">
+                    <li><a class="link-secondary" href="https://www.instagram.com/angelsaltacostura/">Instagram</a></li>
+                    <li><a class="link-secondary" href="#">Whatsapp</a></li>
+                    <li><a class="link-secondary" href="#">Pinterest</a></li>
+                </ul>
+            </div>
+        </div>-->
+        <div class="accordion accordion-flush" id="accordionFlushExample">
+            <div class="accordion-item">
+                <h2 class="accordion-header" id="flush-headingThree">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">
+                        Contacto
+                    </button>
+                </h2>
+                <div id="flush-collapseThree" class="accordion-collapse collapse" aria-labelledby="flush-headingThree"
+                    data-bs-parent="#accordionFlushExample">
+                    <ul class="list-unstyled">
+                        <li><a class="link-secondary" href="https://www.instagram.com/angelsaltacostura/">Instagram</a></li>
+                        <li><a class="link-secondary" href="">Whatsapp</a></li>
+                        <li><a class="link-secondary" href="#">Pinterest</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+</body>
+
+</html>
