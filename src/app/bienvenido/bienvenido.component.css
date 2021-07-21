@@ -1,22 +1,6 @@
-.bd-placeholder-img {
-    font-size: 1.6rem;
-    text-anchor: middle;
-    -webkit-user-select: none;
-    -moz-user-select: none;
-    user-select: none;
-}
-
-@media (min-width: 768px) {
-    .bd-placeholder-img-lg {
-        font-size: 3.5rem;
-    }
-}
-
 .container {
-  /**/  
   max-width: 960px;
 }
-
 
 .site-header {
   background-color: #ffffffbf;
@@ -28,7 +12,7 @@
   transition: color .15s ease-in-out;
 }
 .site-header a:hover {
-  color: rgb(247, 227, 178);
+  color: #f7e3b2;
   text-decoration: none;
 }
 
@@ -63,6 +47,12 @@
 }
 
 .divMenu{
-  border: 2px;
-  border-radius: 5%;
+  border: 3px white solid;
+  border-radius: 3%;
+  height: 90vh;
+}
+
+
+.divMenu:hover{
+  border-color: #f7e3b2;
 }
